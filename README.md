@@ -2,7 +2,7 @@ Ce projet est un fork de celui de l'université de Strasbourg : https://gitlab.u
 
 # Installation 
 
-
+yarn add https://github.com/Lyliian/vue-cas-authentication.git
 
 # Configuration 
 

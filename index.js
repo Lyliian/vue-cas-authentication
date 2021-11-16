@@ -79,7 +79,7 @@ export default {
     const getCredential = async () => {
             let url = new URL(window.location.href);
             let ticket = url.searchParams.get("ticket");
-            axios.get(`https://cors-anywhere.herokuapp.com/${authServerUrl}?service=${localStorage.getItem('origin')}&ticket=${ticket}`)
+            axios.get(`${authServerUrl}?service=${localStorage.getItem('origin')}&ticket=${ticket}`)
             .then(response => {
                 let parser = new DOMParser();
                 let parseResponse = parser.parseFromString(response.data,"application/xml");
