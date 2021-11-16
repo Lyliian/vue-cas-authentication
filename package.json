@@ -1,0 +1,19 @@
+{
+  "name": "vue-cas-authentication",
+  "version": "1.0.0",
+  "description": "Connection server for CAS authentication with VueJS",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.0"
+  },
+  "peerDependencies": {
+    "axios": "~0.21.1",
+    "vue-router": "~3.5.1",
+    "vuex": "~3.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  },
+  "types": "index.d.ts"
+}
